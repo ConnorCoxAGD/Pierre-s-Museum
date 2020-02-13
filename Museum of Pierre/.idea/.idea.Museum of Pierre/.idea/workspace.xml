@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterJump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddForceToObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -19,6 +20,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/AddForceToObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterJump.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +73,7 @@
       <updated>1580833005819</updated>
       <workItem from="1580833009743" duration="1840000" />
       <workItem from="1581449344565" duration="1188000" />
+      <workItem from="1581627040466" duration="1840000" />
     </task>
     <servers />
   </component>

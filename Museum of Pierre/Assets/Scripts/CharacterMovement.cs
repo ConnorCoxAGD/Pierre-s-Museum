@@ -2,7 +2,7 @@
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
 {
-    public float speed = 10f, orientSpeed = 10f, jumpSpeed = 18f, gravity = 9f;
+    public float speed = 10f, orientSpeed = 10f, gravity = 9f;
 
     private CharacterController _controller;
     private Vector3 _pos;
@@ -14,15 +14,8 @@ public class CharacterMovement : MonoBehaviour
     }
 
     void Update()
-    {
-        if (_controller.isGrounded && Input.GetButtonDown("Jump"))
-        {
-            _pos.Set(0, +jumpSpeed, 0);
-        }
-        else
-        {
-            _pos.Set(0, -gravity, Input.GetAxis("Vertical") * speed);
-        }
+    { 
+        _pos.Set(0, 0, Input.GetAxis("Vertical") * speed);
         _orientation.Set(0, Input.GetAxis("Horizontal") * orientSpeed, 0);
 
         _pos = _controller.transform.TransformDirection(_pos);
