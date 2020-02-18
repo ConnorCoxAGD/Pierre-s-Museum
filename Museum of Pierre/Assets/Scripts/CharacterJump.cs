@@ -17,7 +17,7 @@ public class CharacterJump : MonoBehaviour
     {
         if (_controller.isGrounded && Input.GetButtonDown("Jump"))
         {
-            _pos.y += jumpSpeed * Time.deltaTime;
+            _pos.y += jumpSpeed;
         }
         else
         {

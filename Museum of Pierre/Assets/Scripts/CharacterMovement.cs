@@ -2,7 +2,7 @@
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
 {
-    public float speed = 10f, orientSpeed = 10f, gravity = 9f;
+    public float speed = 10f, orientSpeed = 10f;
 
     private CharacterController _controller;
     private Vector3 _pos;
