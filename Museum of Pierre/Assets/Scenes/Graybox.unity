@@ -2747,12 +2747,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300042, guid: 15af884b02abd114dacfc12196f72bd2, type: 3}
---- !u!4 &916130072 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 756714108328249479, guid: f4a2e7e5950c0c74ab8f7db38fc482ea,
-    type: 3}
-  m_PrefabInstance: {fileID: 756714107967996319}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &932870888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,7 +2782,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 15
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 916130072}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -3175,7 +3169,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 18
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 916130072}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -4716,7 +4710,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 14
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 916130072}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -5057,7 +5051,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 17
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 916130072}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -5126,7 +5120,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 20
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 916130072}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -5295,7 +5289,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 16
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 916130072}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -6673,7 +6667,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6294059279242669465, guid: f4a2e7e5950c0c74ab8f7db38fc482ea,
+        type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 756714107611935576, guid: f4a2e7e5950c0c74ab8f7db38fc482ea, type: 3}
+    - {fileID: 756714107611935573, guid: f4a2e7e5950c0c74ab8f7db38fc482ea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f4a2e7e5950c0c74ab8f7db38fc482ea, type: 3}
 --- !u!1001 &882035947289359631
 PrefabInstance:
