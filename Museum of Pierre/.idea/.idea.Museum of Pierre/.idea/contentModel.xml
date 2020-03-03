@@ -16,10 +16,6 @@
           <e p="MatchIDBehaviour.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
-          <e p="Player" t="Include">
-            <e p="PlayerJump.cs" t="Include" />
-            <e p="PlayerMovement.cs" t="Include" />
-          </e>
           <e p="PlayerMoveBehaviour.cs" t="Include" />
         </e>
       </e>
