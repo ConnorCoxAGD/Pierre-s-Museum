@@ -1,22 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LiftBehaviour : MonoBehaviour
 {
-    public Transform target;
-    public bool holdingObj = false;
+    public Transform target, allPickUps;
+    public GameObject pickUp;
+    public Rigidbody pickUpRb;
+    
+    private bool _holdingObj = false;
 
     private void OnTriggerStay(Collider obj)
     {
         if (Input.GetKeyDown("space"))
         {
-            obj.transform.position = target.position;
-            obj.transform.parent = target;
-            holdingObj = true;
-
+            pickUp = obj.gameObject;
+            pickUpRb = obj.GetComponent<Rigidbody>();
+            pickUpRb.useGravity = false;
+            pickUpRb.isKinematic = true;
+            
+            pickUp.transform.position = target.position;
+            pickUp.transform.rotation = target.rotation;
+            pickUp.transform.parent = target;
+            
+            _holdingObj = true;
         }
     }
 
+    private void Update()
+    {
+        if (_holdingObj == true)
+        {
+            ThrowObj();
+        }
+    }
 
+    private void ThrowObj()
+    {
+        if (Input.GetKeyDown("e"))
+        {
+            pickUpRb.isKinematic = false;
+            pickUpRb.AddRelativeForce(0,0,250);
+            pickUp.transform.parent = allPickUps;
+            pickUpRb.useGravity = true;
+            _holdingObj = false;
+        }
+    }
 }

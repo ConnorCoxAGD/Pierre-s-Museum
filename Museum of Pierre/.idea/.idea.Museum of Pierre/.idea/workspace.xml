@@ -9,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,13 +29,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
-                <marker date="1584499907177" expanded="true" signature="6:78" ph="..." />
-                <marker date="1584499907177" expanded="true" signature="122:439" ph="{...}" />
-                <marker date="1584499907177" expanded="true" signature="235:435" ph="{...}" />
-                <marker date="1584499907177" expanded="true" signature="280:429" ph="{...}" />
+                <marker date="1584676119454" expanded="true" signature="62:1144" ph="{...}" />
+                <marker date="1584676119454" expanded="true" signature="255:717" ph="{...}" />
+                <marker date="1584676119454" expanded="true" signature="300:711" ph="{...}" />
+                <marker date="1584676119454" expanded="true" signature="744:833" ph="{...}" />
+                <marker date="1584676119454" expanded="true" signature="783:827" ph="{...}" />
+                <marker date="1584676119454" expanded="true" signature="862:1142" ph="{...}" />
+                <marker date="1584676119454" expanded="true" signature="903:1136" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AddForceToObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1580887173503" expanded="true" signature="62:351" ph="{...}" />
+                <marker date="1580887173503" expanded="true" signature="199:349" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,13 +87,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NameId.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ThrowBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="97" />
-    <option name="y" value="65" />
+    <option name="x" value="238" />
+    <option name="y" value="82" />
     <option name="width" value="1176" />
     <option name="height" value="704" />
   </component>
@@ -137,12 +153,13 @@
       <workItem from="1581627040466" duration="1840000" />
       <workItem from="1582053445934" duration="3725000" />
       <workItem from="1583269266771" duration="602000" />
-      <workItem from="1584496475495" duration="3420000" />
+      <workItem from="1584496475495" duration="4001000" />
+      <workItem from="1584666836183" duration="6101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3420000" />
+    <option name="totallyTimeSpent" value="10102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -154,23 +171,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="65" width="1176" height="704" extended-state="1" />
+    <frame x="238" y="82" width="1176" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -178,13 +186,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,15 +270,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ThrowBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AddForceToObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1580887173503" expanded="true" signature="62:351" ph="{...}" />
+            <marker date="1580887173503" expanded="true" signature="199:349" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <marker date="1584499907177" expanded="true" signature="6:78" ph="..." />
-            <marker date="1584499907177" expanded="true" signature="122:439" ph="{...}" />
-            <marker date="1584499907177" expanded="true" signature="235:435" ph="{...}" />
-            <marker date="1584499907177" expanded="true" signature="280:429" ph="{...}" />
+            <marker date="1584676119454" expanded="true" signature="62:1144" ph="{...}" />
+            <marker date="1584676119454" expanded="true" signature="255:717" ph="{...}" />
+            <marker date="1584676119454" expanded="true" signature="300:711" ph="{...}" />
+            <marker date="1584676119454" expanded="true" signature="744:833" ph="{...}" />
+            <marker date="1584676119454" expanded="true" signature="783:827" ph="{...}" />
+            <marker date="1584676119454" expanded="true" signature="862:1142" ph="{...}" />
+            <marker date="1584676119454" expanded="true" signature="903:1136" ph="{...}" />
           </folding>
         </state>
       </provider>
