@@ -18,6 +18,7 @@
           <e p="MonoEvents.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
           <e p="PlayerMoveBehaviour.cs" t="Include" />
+          <e p="TriggerEventBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

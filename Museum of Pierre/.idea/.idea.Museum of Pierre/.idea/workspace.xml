@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <marker date="1584676119454" expanded="true" signature="62:1144" ph="{...}" />
                 <marker date="1584676119454" expanded="true" signature="255:717" ph="{...}" />
@@ -39,6 +39,21 @@
                 <marker date="1584676119454" expanded="true" signature="783:827" ph="{...}" />
                 <marker date="1584676119454" expanded="true" signature="862:1142" ph="{...}" />
                 <marker date="1584676119454" expanded="true" signature="903:1136" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <marker date="1584677588696" expanded="true" signature="6:44" ph="..." />
+                <marker date="1584677588696" expanded="true" signature="97:353" ph="{...}" />
+                <marker date="1584677588696" expanded="true" signature="208:256" ph="{...}" />
+                <marker date="1584677588696" expanded="true" signature="304:351" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -63,6 +78,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NameId.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AgentPointPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IdBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -89,6 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThrowBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TiggerEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -154,12 +172,12 @@
       <workItem from="1582053445934" duration="3725000" />
       <workItem from="1583269266771" duration="602000" />
       <workItem from="1584496475495" duration="4001000" />
-      <workItem from="1584666836183" duration="6101000" />
+      <workItem from="1584666836183" duration="6770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10102000" />
+    <option name="totallyTimeSpent" value="10771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +308,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <marker date="1584676119454" expanded="true" signature="62:1144" ph="{...}" />
             <marker date="1584676119454" expanded="true" signature="255:717" ph="{...}" />
@@ -299,6 +317,26 @@
             <marker date="1584676119454" expanded="true" signature="783:827" ph="{...}" />
             <marker date="1584676119454" expanded="true" signature="862:1142" ph="{...}" />
             <marker date="1584676119454" expanded="true" signature="903:1136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TiggerEventBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1584677588696" expanded="true" signature="6:44" ph="..." />
+            <marker date="1584677588696" expanded="true" signature="97:353" ph="{...}" />
+            <marker date="1584677588696" expanded="true" signature="208:256" ph="{...}" />
+            <marker date="1584677588696" expanded="true" signature="304:351" ph="{...}" />
           </folding>
         </state>
       </provider>
