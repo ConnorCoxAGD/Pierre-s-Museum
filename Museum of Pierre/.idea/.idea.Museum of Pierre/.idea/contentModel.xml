@@ -9,15 +9,19 @@
         <e p="Scripts" t="Include">
           <e p="AddForceToObj.cs" t="Include" />
           <e p="AgentPointPatrol.cs" t="Include" />
-          <e p="CharacterJump.cs" t="Include" />
           <e p="DoWork.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
-          <e p="IDBehaviour.cs" t="Include" />
-          <e p="LiftBehaviour.cs" t="Include" />
-          <e p="MatchIDBehaviour.cs" t="Include" />
+          <e p="IdMatching" t="Include">
+            <e p="IdBehaviour.cs" t="Include" />
+            <e p="MatchIdBehaviour.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+          </e>
           <e p="MonoEvents.cs" t="Include" />
-          <e p="NameID.cs" t="Include" />
-          <e p="PlayerMoveBehaviour.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="CharacterJump.cs" t="Include" />
+            <e p="LiftBehaviour.cs" t="Include" />
+            <e p="PlayerMoveBehaviour.cs" t="Include" />
+          </e>
           <e p="TriggerEventBehaviour.cs" t="Include" />
         </e>
       </e>
