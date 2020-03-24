@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CharacterJump : MonoBehaviour
 {
-    public float jumpSpeed = 100, gravity = 1;
+    public float jumpSpeed = 3, gravity = 3;
     private CharacterController _controller;
     private Vector3 _pos;
 
