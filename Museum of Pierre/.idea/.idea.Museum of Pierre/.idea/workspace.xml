@@ -10,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -37,6 +37,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroySO.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <marker date="1585075787691" expanded="true" signature="79:159" ph="{...}" />
+                <marker date="1585075787691" expanded="true" signature="120:157" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -46,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AgentPointPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroySO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddForceToObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoWork.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -68,14 +82,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchIdBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IdBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroySO.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="238" />
-    <option name="y" value="82" />
-    <option name="width" value="1176" />
-    <option name="height" value="704" />
+    <option name="x" value="427" />
+    <option name="y" value="58" />
+    <option name="width" value="729" />
+    <option name="height" value="681" />
   </component>
   <component name="ProjectId" id="1XLkwxuqpsEkyzETV6suS5oq50c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -136,11 +152,12 @@
       <workItem from="1584666836183" duration="6770000" />
       <workItem from="1584747051365" duration="595000" />
       <workItem from="1585061945268" duration="1196000" />
+      <workItem from="1585075303950" duration="1084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12562000" />
+    <option name="totallyTimeSpent" value="13646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -152,8 +169,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="238" y="82" width="1176" height="704" extended-state="0" />
-    <editor active="true" />
+    <frame x="427" y="58" width="729" height="681" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -239,10 +255,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ThrowBehaviour.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TiggerEventBehaviour.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveBehaviour.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveBehaviour.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NameId.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MatchIdBehaviour.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IdBehaviour.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1584677588696" expanded="false" signature="6:44" ph="..." />
+            <marker date="1584677588696" expanded="true" signature="97:353" ph="{...}" />
+            <marker date="1584677588696" expanded="true" signature="208:256" ph="{...}" />
+            <marker date="1584677588696" expanded="true" signature="304:351" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -256,39 +290,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NameId.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MatchIdBehaviour.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroySO.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IdBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LiftBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <marker date="1584677588696" expanded="false" signature="6:44" ph="..." />
-            <marker date="1584677588696" expanded="true" signature="97:353" ph="{...}" />
-            <marker date="1584677588696" expanded="true" signature="208:256" ph="{...}" />
-            <marker date="1584677588696" expanded="true" signature="304:351" ph="{...}" />
+            <marker date="1585075787691" expanded="true" signature="79:159" ph="{...}" />
+            <marker date="1585075787691" expanded="true" signature="120:157" ph="{...}" />
           </folding>
         </state>
       </provider>

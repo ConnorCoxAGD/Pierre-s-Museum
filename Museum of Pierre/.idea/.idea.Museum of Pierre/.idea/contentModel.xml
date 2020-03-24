@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="AddForceToObj.cs" t="Include" />
           <e p="AgentPointPatrol.cs" t="Include" />
+          <e p="DestroySO.cs" t="Include" />
           <e p="DoWork.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="IdMatching" t="Include">
