@@ -8,10 +8,19 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AddForceToObj.cs" t="Include" />
-          <e p="AgentPointPatrol.cs" t="Include" />
+          <e p="AI" t="Include">
+            <e p="AgentPointPatrol.cs" t="Include" />
+            <e p="AiBase.cs" t="Include" />
+            <e p="AiBehaviour.cs" t="Include" />
+            <e p="AiBrain.cs" t="Include" />
+            <e p="AiHunt.cs" t="Include" />
+            <e p="AiIdle.cs" t="Include" />
+          </e>
           <e p="DestroySO.cs" t="Include" />
           <e p="DoWork.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
           <e p="IdMatching" t="Include">
             <e p="IdBehaviour.cs" t="Include" />
             <e p="MatchIdBehaviour.cs" t="Include" />

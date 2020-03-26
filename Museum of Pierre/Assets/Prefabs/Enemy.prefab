@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 882035946076534865}
   m_Layer: 0
-  m_Name: Seeker
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f726ca7cc310c946b4849b5b92f9ec9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameIDObjs: {fileID: 11400000, guid: 1311413e981cf2c4ebff13145b13b9fb, type: 2}
+  nameIdObj: {fileID: 0}
 --- !u!1 &882035947308638616
 GameObject:
   m_ObjectHideFlags: 0
