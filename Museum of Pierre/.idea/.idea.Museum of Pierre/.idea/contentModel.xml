@@ -15,6 +15,7 @@
             <e p="AiBrain.cs" t="Include" />
             <e p="AiHunt.cs" t="Include" />
             <e p="AiIdle.cs" t="Include" />
+            <e p="AiRaycast.cs" t="Include" />
           </e>
           <e p="DestroySO.cs" t="Include" />
           <e p="DoWork.cs" t="Include" />
@@ -29,7 +30,7 @@
           <e p="MonoEvents.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="CharacterJump.cs" t="Include" />
-            <e p="LiftBehaviour.cs" t="Include" />
+            <e p="PickUpAndThrow.cs" t="Include" />
             <e p="PlayerMoveBehaviour.cs" t="Include" />
           </e>
           <e p="TriggerEventBehaviour.cs" t="Include" />

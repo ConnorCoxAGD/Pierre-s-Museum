@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
 using UnityEngine;
 
-public class LiftBehaviour : MonoBehaviour
+public class PickUpAndThrow : MonoBehaviour
 {
     public Transform target, allPickUps;
     [CanBeNull]public GameObject pickUp;
@@ -39,7 +39,7 @@ public class LiftBehaviour : MonoBehaviour
         if (Input.GetKeyDown("e"))
         {
             pickUpRb.isKinematic = false;
-            pickUpRb.AddRelativeForce(0,0,250);
+            pickUpRb.AddRelativeForce(0,0,500);
             pickUp.transform.parent = allPickUps;
             pickUpRb.useGravity = true;
             _holdingObj = false;
