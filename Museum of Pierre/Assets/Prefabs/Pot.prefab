@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2092124048}
   - component: {fileID: 2092124047}
   - component: {fileID: 2092124049}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Pot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 58fc20d59868f86488dcc0dfc378c042, type: 3}
+  - {fileID: 2100002, guid: 58fc20d59868f86488dcc0dfc378c042, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,7 +108,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 74.5, y: 89.05483, z: 66.72899}
-  m_Center: {x: -50.44346, y: 49.242634, z: -52.78632}
+  m_Center: {x: 48.69, y: 49.242634, z: 43.89}
 --- !u!65 &2092124049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -121,4 +121,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 60.83727, y: 58.48378, z: 63.322807}
-  m_Center: {x: -48.525574, y: 33.957108, z: -51.14349}
+  m_Center: {x: 48.1, y: 33.957108, z: 47.1}

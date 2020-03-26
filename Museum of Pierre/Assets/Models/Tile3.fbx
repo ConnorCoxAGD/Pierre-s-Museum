@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2020
 		Month: 3
-		Day: 13
-		Hour: 14
-		Minute: 18
-		Second: 32
-		Millisecond: 950
+		Day: 26
+		Hour: 10
+		Minute: 32
+		Second: 14
+		Millisecond: 902
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201800"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "13/03/2020 20:18:32.949"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "26/03/2020 16:32:14.901"
 			P: "Original|FileName", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Museum of Pierre\Assets\Models\Tile3.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201800"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "13/03/2020 20:18:32.949"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "26/03/2020 16:32:14.901"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Museum of Pierre\Assets\Models"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Pre-Production\Gray Box.ma"
 		}
@@ -57,7 +57,7 @@ GlobalSettings:  {
 		P: "CoordAxisSign", "int", "Integer", "",1
 		P: "OriginalUpAxis", "int", "Integer", "",1
 		P: "OriginalUpAxisSign", "int", "Integer", "",1
-		P: "UnitScaleFactor", "double", "Number", "",100
+		P: "UnitScaleFactor", "double", "Number", "",1
 		P: "OriginalUnitScaleFactor", "double", "Number", "",1
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
 		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1340692608656, "", "Scene" {
+	Document: 2508113848144, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -227,9 +227,9 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1340630326960, "Geometry::", "Mesh" {
+	Geometry: 2507937991840, "Geometry::", "Mesh" {
 		Vertices: *48 {
-			a: 700,-0.573210835456848,1300,903.13720703125,-0.573210835456848,1300,700,-0.573210835456848,1096.86279296875,903.13720703125,-0.573210835456848,1096.86279296875,706.269897460938,-0.573210835456848,1293.72998046875,896.861206054688,-0.573210835456848,1293.72998046875,896.861206054688,-0.573210835456848,1103.1328125,706.269897460938,-0.573210835456848,1103.1328125,700,2.31633400917053,1300,903.13720703125,2.31633400917053,1300,896.861206054688,2.31633400917053,1293.72998046875,706.269897460938,2.31633400917053,1293.72998046875,903.13720703125,2.31633400917053,1096.86279296875,896.861206054688,2.31633400917053,1103.1328125,700,2.31633400917053,1096.86279296875,706.269897460938,2.31633400917053,1103.1328125
+			a: 9,-1.11022302462516e-16,-3,6.9686279296875,-1.11022302462516e-16,-3,9,1.11022302462516e-16,-0.9686279296875,6.9686279296875,1.11022302462516e-16,-0.9686279296875,8.93733310699463,-1.11022302462516e-16,-2.93721103668213,7.03135585784912,-1.11022302462516e-16,-2.93721103668213,7.03135585784912,1.11022302462516e-16,-1.03141701221466,8.93733310699463,1.11022302462516e-16,-1.03141701221466,9,0.00937861017882824,-3,6.9686279296875,0.00937861017882824,-3,7.03135585784912,0.00937861017882824,-2.93721103668213,8.93733310699463,0.00937861017882824,-2.93721103668213,6.9686279296875,0.00937861017882824,-0.9686279296875,7.03135585784912,0.00937861017882824,-1.03141701221466,9,0.00937861017882824,-0.9686279296875,8.93733310699463,0.00937861017882824,-1.03141701221466
 		} 
 		PolygonVertexIndex: *52 {
 			a: 4,5,6,-8,8,9,10,-12,9,12,13,-11,12,14,15,-14,14,8,11,-16,0,1,9,-9,5,4,11,-11,1,3,12,-10,6,5,10,-14,3,2,14,-13,7,6,13,-16,2,0,8,-15,4,7,15,-12
@@ -244,7 +244,7 @@ Objects:  {
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "Direct"
 			Normals: *156 {
-				a: 0,1,0,0,1,0,0,1,0,0,1,0,0,1,1.15892557772668e-08,0,1,1.15892557772668e-08,0,1,1.15892557772668e-08,0,1,1.15892557772668e-08,0,0.999999940395355,0,0,0.999999940395355,0,0,1,0,0,1,0,0,1,6.9535541769028e-09,0,1,6.95355328872438e-09,0,1,6.9535541769028e-09,0,1,6.95355373281359e-09,0,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+				a: 0,1,-1.16510295102225e-16,0,1,-1.16510295102225e-16,0,1,-1.16510295102225e-16,0,1,-1.16510295102225e-16,0,1,-3.7671510355608e-09,0,1,-3.7671510355608e-09,0,0.999999940395355,-3.7671510355608e-09,0,0.999999940395355,-3.7671510355608e-09,0,1,0,0,1,0,0,1,0,0,0.999999940395355,0,0,1,-6.12160810931073e-09,0,0.999999940395355,-6.12160766522152e-09,0,1,-6.12160810931073e-09,0,1,-6.12160855339994e-09,0,1,0,0,1,0,0,1,0,0,1,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0
 			} 
 			NormalsW: *52 {
 				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -287,29 +287,27 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1340693049840, "Model::Big_tile", "Mesh" {
+	Model: 2506180055568, "Model::Big_tile", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "RotationPivot", "Vector3D", "Vector", "",6.9999999894863,-0.00573210826368789,12.9999999849707
-			P: "ScalingOffset", "Vector3D", "Vector", "",-692.999998959144,0.567478718105101,-1286.9999985121
-			P: "ScalingPivot", "Vector3D", "Vector", "",699.99999894863,-0.573210826368789,1299.99999849707
+			P: "RotationPivot", "Vector3D", "Vector", "",9,3.58740814832004e-15,-3.00000000000011
+			P: "ScalingPivot", "Vector3D", "Vector", "",8.99999999999995,3.61429636219768e-15,-3.00000000000005
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.01,0.01,0.01
 			P: "currentUVSet", "KString", "", "U", "map1"
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1340633091440, "Material::Tiled_Floor", "" {
+	Material: 2507936333344, "Material::Tiled_Floor", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
 		Properties70:  {
 			P: "AmbientColor", "Color", "", "A",0,0,0
-			P: "DiffuseColor", "Color", "", "A",0.43979999423027,0.425700008869171,0.267300009727478
+			P: "DiffuseColor", "Color", "", "A",1,0.855700016021729,0.784300029277802
 			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
 			P: "TransparencyFactor", "Number", "", "A",1
 			P: "SpecularColor", "Color", "", "A",0.5,0.5,0.5
@@ -317,7 +315,7 @@ Objects:  {
 			P: "ReflectionFactor", "Number", "", "A",0.5
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
 			P: "Ambient", "Vector3D", "Vector", "",0,0,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.351840000627041,0.340560012170076,0.213840010968447
+			P: "Diffuse", "Vector3D", "Vector", "",0.800000011920929,0.684560023018122,0.627440032771826
 			P: "Specular", "Vector3D", "Vector", "",0.5,0.5,0.5
 			P: "Shininess", "double", "Number", "",6.31179093816824
 			P: "Opacity", "double", "Number", "",1
@@ -332,11 +330,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Big_tile, Model::RootNode
-	C: "OO",1340693049840,0
+	C: "OO",2506180055568,0
 	
 	;Geometry::, Model::Big_tile
-	C: "OO",1340630326960,1340693049840
+	C: "OO",2507937991840,2506180055568
 	
 	;Material::Tiled_Floor, Model::Big_tile
-	C: "OO",1340633091440,1340693049840
+	C: "OO",2507936333344,2506180055568
 }
