@@ -3,7 +3,7 @@
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMoveBehaviour : MonoBehaviour
 {
-    public float speed = 5f, gravity = -1;
+    public float speed = 5f, gravity = 1f;
     private Vector3 _direction;
     private CharacterController _controller;
 
@@ -17,14 +17,16 @@ public class PlayerMoveBehaviour : MonoBehaviour
         _direction.x = Input.GetAxis("Horizontal");
         _direction.z = Input.GetAxis("Vertical");
 
-        var movement = new Vector3(_direction.x, 0.0f, _direction.z);
+        var movement = new Vector3(_direction.x, 0, _direction.z);
 
         if (movement != Vector3.zero)
         {
             transform.rotation = Quaternion.Slerp(transform.rotation,
-                Quaternion.LookRotation(movement), 0.5f);
+                Quaternion.LookRotation(movement), 0.25f);
         }
+        
+        movement.y -= gravity * 9 * Time.deltaTime;
+        _controller.Move(movement * speed * Time.deltaTime);
 
-        transform.Translate(movement * speed * Time.deltaTime, Space.World);
     }
 }

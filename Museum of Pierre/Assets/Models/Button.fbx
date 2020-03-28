@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2020
 		Month: 3
-		Day: 26
-		Hour: 10
-		Minute: 27
-		Second: 54
-		Millisecond: 177
+		Day: 28
+		Hour: 16
+		Minute: 24
+		Second: 7
+		Millisecond: 265
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201800"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "26/03/2020 16:27:54.175"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "28/03/2020 22:24:07.261"
 			P: "Original|FileName", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Museum of Pierre\Assets\Models\Button.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201800"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "26/03/2020 16:27:54.175"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "28/03/2020 22:24:07.261"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Museum of Pierre\Assets\Models"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Pre-Production\Gray Box.ma"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2507925097328, "", "Scene" {
+	Document: 1459539073568, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -227,7 +227,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2507938011808, "Geometry::", "Mesh" {
+	Geometry: 1459301889920, "Geometry::", "Mesh" {
 		Vertices: *99 {
 			a: -0.193894878029823,-0.499999940395355,0.19389496743679,0.193894878029823,-0.499999940395355,0.19389496743679,-0.193894878029823,-0.499999940395355,-0.19389496743679,0.193894878029823,-0.499999940395355,-0.19389496743679,0,-0.5,-0.270909607410431,0,-0.5,0.270909607410431,0,-0.334316492080688,0,-0.270909607410431,-0.5,0,0.270909607410431,-0.5,0,-0.193894878029823,-0.427244663238525,0.19389496743679,-0.180128782987595,-0.367308497428894,0.180128812789917,-0.155119776725769,-0.334316492080688,0.155119776725769,0,-0.427244603633881,0.270909607410431,0,-0.367308497428894,0.251675605773926,0,-0.334316492080688,0.216733157634735,-0.155119776725769,-0.334316492080688,-0.155119776725769,-0.180128782987595,-0.367308497428894,-0.180128812789917,-0.193894878029823,-0.427244663238525,-0.19389496743679,0,-0.427244603633881,-0.270909607410431,0,-0.367308497428894,-0.251675605773926,0,-0.334316492080688,-0.216733157634735,-0.216733127832413,-0.334316492080688,0,-0.251675605773926,-0.367308497428894,0,-0.270909607410431,-0.427244603633881,0,0.193894878029823,-0.427244663238525,0.19389496743679,0.180128782987595,-0.367308497428894,0.180128812789917,0.155119776725769,-0.334316492080688,0.155119776725769,0.216733127832413,-0.334316492080688,0,0.251675605773926,-0.367308497428894,0,0.270909607410431,-0.427244603633881,0,0.193894878029823,-0.427244663238525,-0.19389496743679,0.180128782987595,-0.367308497428894,-0.180128812789917,0.155119776725769,-0.334316492080688,-0.155119776725769
 		} 
@@ -287,11 +287,11 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2506180085728, "Model::Button", "Mesh" {
+	Model: 1459542688848, "Model::Button", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "RotationPivot", "Vector3D", "Vector", "",0.5,-0.5,-0.5
-			P: "ScalingPivot", "Vector3D", "Vector", "",0.5,-0.5,-0.5
+			P: "RotationPivot", "Vector3D", "Vector", "",0,-0.500031690761639,0
+			P: "ScalingPivot", "Vector3D", "Vector", "",0,-0.500031690761639,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -302,7 +302,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2507936333824, "Material::Red", "" {
+	Material: 1459352695072, "Material::Red", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -331,11 +331,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Button, Model::RootNode
-	C: "OO",2506180085728,0
+	C: "OO",1459542688848,0
 	
 	;Geometry::, Model::Button
-	C: "OO",2507938011808,2506180085728
+	C: "OO",1459301889920,1459542688848
 	
 	;Material::Red, Model::Button
-	C: "OO",2507936333824,2506180085728
+	C: "OO",1459352695072,1459542688848
 }
