@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2020
 		Month: 3
-		Day: 13
-		Hour: 14
-		Minute: 19
-		Second: 0
-		Millisecond: 710
+		Day: 31
+		Hour: 0
+		Minute: 37
+		Second: 19
+		Millisecond: 106
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201800"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "13/03/2020 20:19:00.708"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "31/03/2020 06:37:19.104"
 			P: "Original|FileName", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Museum of Pierre\Assets\Models\RugMid.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201800"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "13/03/2020 20:19:00.708"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "31/03/2020 06:37:19.104"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Museum of Pierre\Assets\Models"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Pre-Production\Gray Box.ma"
 		}
@@ -57,7 +57,7 @@ GlobalSettings:  {
 		P: "CoordAxisSign", "int", "Integer", "",1
 		P: "OriginalUpAxis", "int", "Integer", "",1
 		P: "OriginalUpAxisSign", "int", "Integer", "",1
-		P: "UnitScaleFactor", "double", "Number", "",100
+		P: "UnitScaleFactor", "double", "Number", "",1
 		P: "OriginalUnitScaleFactor", "double", "Number", "",1
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
 		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1340627701200, "", "Scene" {
+	Document: 1671637505904, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -116,9 +116,9 @@ Definitions:  {
 	}
 	ObjectType: "Material" {
 		Count: 1
-		PropertyTemplate: "FbxSurfaceLambert" {
+		PropertyTemplate: "FbxSurfacePhong" {
 			Properties70:  {
-				P: "ShadingModel", "KString", "", "", "Lambert"
+				P: "ShadingModel", "KString", "", "", "Phong"
 				P: "MultiLayer", "bool", "", "",0
 				P: "EmissiveColor", "Color", "", "A",0,0,0
 				P: "EmissiveFactor", "Number", "", "A",1
@@ -135,6 +135,11 @@ Definitions:  {
 				P: "DisplacementFactor", "double", "Number", "",1
 				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
 				P: "VectorDisplacementFactor", "double", "Number", "",1
+				P: "SpecularColor", "Color", "", "A",0.2,0.2,0.2
+				P: "SpecularFactor", "Number", "", "A",1
+				P: "ShininessExponent", "Number", "", "A",20
+				P: "ReflectionColor", "Color", "", "A",0,0,0
+				P: "ReflectionFactor", "Number", "", "A",1
 			}
 		}
 	}
@@ -222,9 +227,9 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1340630320304, "Geometry::", "Mesh" {
+	Geometry: 1671489167488, "Geometry::", "Mesh" {
 		Vertices: *36 {
-			a: 1027.40124511719,-0.573210835456848,1000,1270.87963867188,-0.573210835456848,1000,1027.40124511719,-0.573210835456848,828.980102539063,1270.87963867188,-0.573210835456848,828.980102539063,1251.91442871094,-0.573210835456848,1000,1251.91442871094,-0.573210835456848,828.980102539063,1046.36633300781,-0.573210835456848,1000,1046.36633300781,-0.573210835456848,828.980102539063,1240.56970214844,1.23419642448425,1000,1240.56970214844,1.23419642448425,828.980102539063,1057.71118164063,1.23419642448425,1000,1057.71118164063,1.23419642448425,828.980102539063
+			a: 12.7260284423828,-1.11022302462516e-16,-6.00000619888306,10.2912445068359,-1.11022302462516e-16,-6.00000619888306,12.7260284423828,1.11022302462516e-16,-4,10.2912445068359,1.11022302462516e-16,-4,10.4808654785156,-1.11022302462516e-16,-6.00000619888306,10.4808654785156,1.11022302462516e-16,-4,12.5363464355469,-1.11022302462516e-16,-6.00000619888306,12.5363464355469,1.11022302462516e-16,-4,10.5943460464478,0.0180740728974342,-6.00000619888306,10.5943460464478,0.0180740728974342,-4,12.4228658676147,0.0180740728974342,-6.00000619888306,12.4228658676147,0.0180740728974342,-4
 		} 
 		PolygonVertexIndex: *20 {
 			a: 2,0,6,-8,5,4,1,-4,7,6,10,-12,9,8,4,-6,11,10,8,-10
@@ -239,7 +244,7 @@ Objects:  {
 			MappingInformationType: "ByVertice"
 			ReferenceInformationType: "Direct"
 			Normals: *36 {
-				a: 0,1,0,0,1,0,0,1,0,0,1,0,0.0595251992344856,0.998226761817932,0,0.0595251992344856,0.998226761817932,0,-0.0595251955091953,0.998226761817932,0,-0.0595251955091953,0.998226761817932,0,0.00930637586861849,0.999956667423248,0,0.00930637586861849,0.999956667423248,0,-0.00930637121200562,0.999956727027893,0,-0.00930637121200562,0.999956727027893,0
+				a: 0,1,-1.11022302462516e-16,0,1,-1.11021746597144e-16,0,1,-1.11022302462516e-16,0,1,-1.11021746597144e-16,-0.059524692595005,0.998226821422577,-6.93324194421778e-17,-0.059524692595005,0.998226821422577,-6.93324194421778e-17,0.0595127418637276,0.998227536678314,-6.93408169797564e-17,0.0595127418637276,0.998227536678314,-6.93408169797564e-17,-0.00930653512477875,0.999956727027893,0,-0.00930653512477875,0.999956727027893,0,0.00930653139948845,0.999956727027893,0,0.00930653139948845,0.999956727027893,0
 			} 
 			NormalsW: *12 {
 				a: 1,1,1,1,1,1,1,1,1,1,1,1
@@ -282,35 +287,40 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1340697249104, "Model::Rug_Middle", "Mesh" {
+	Model: 1671505048304, "Model::Rug_Middle", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "RotationPivot", "Vector3D", "Vector", "",10.9999999894863,-0.00573210826368789,9.99999998497066
-			P: "ScalingOffset", "Vector3D", "Vector", "",-1088.99999895914,0.567478718105101,-989.999998512095
-			P: "ScalingPivot", "Vector3D", "Vector", "",1099.99999894863,-0.573210826368789,999.999998497066
+			P: "RotationPivot", "Vector3D", "Vector", "",11.9999999894862,3.58740814832004e-15,-6.00000000000011
+			P: "ScalingPivot", "Vector3D", "Vector", "",11.9999999894863,3.61429636219768e-15,-6.00000000000006
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.01,0.01,0.01
+			P: "Lcl Translation", "Lcl Translation", "", "A",-0.999999989486241,-3.58740814832004e-15,-4
 			P: "currentUVSet", "KString", "", "U", "map1"
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1340476241040, "Material::lambert1", "" {
+	Material: 1671428297184, "Material::Red", "" {
 		Version: 102
-		ShadingModel: "lambert"
+		ShadingModel: "phong"
 		MultiLayer: 0
 		Properties70:  {
 			P: "AmbientColor", "Color", "", "A",0,0,0
-			P: "DiffuseColor", "Color", "", "A",0.5,0.5,0.5
+			P: "DiffuseColor", "Color", "", "A",0.470899999141693,0.0737999975681305,0.0890000015497208
 			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
 			P: "TransparencyFactor", "Number", "", "A",1
+			P: "SpecularColor", "Color", "", "A",0.5,0.5,0.5
+			P: "ShininessExponent", "Number", "", "A",6.31179093816824
+			P: "ReflectionFactor", "Number", "", "A",0.5
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
 			P: "Ambient", "Vector3D", "Vector", "",0,0,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.400000005960464,0.400000005960464,0.400000005960464
+			P: "Diffuse", "Vector3D", "Vector", "",0.37672000492692,0.0590399989342689,0.0712000023007393
+			P: "Specular", "Vector3D", "Vector", "",0.5,0.5,0.5
+			P: "Shininess", "double", "Number", "",6.31179093816824
 			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
 }
@@ -321,11 +331,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Rug_Middle, Model::RootNode
-	C: "OO",1340697249104,0
+	C: "OO",1671505048304,0
 	
 	;Geometry::, Model::Rug_Middle
-	C: "OO",1340630320304,1340697249104
+	C: "OO",1671489167488,1671505048304
 	
-	;Material::lambert1, Model::Rug_Middle
-	C: "OO",1340476241040,1340697249104
+	;Material::Red, Model::Rug_Middle
+	C: "OO",1671428297184,1671505048304
 }
