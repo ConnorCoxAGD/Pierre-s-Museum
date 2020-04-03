@@ -17,6 +17,7 @@
             <e p="AiIdle.cs" t="Include" />
             <e p="AiRaycast.cs" t="Include" />
           </e>
+          <e p="Counter.cs" t="Include" />
           <e p="DestroySO.cs" t="Include" />
           <e p="DoWork.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
