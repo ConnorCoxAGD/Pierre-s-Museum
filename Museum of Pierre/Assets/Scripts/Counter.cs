@@ -5,10 +5,10 @@ using UnityEngine.Events;
 public class Counter : MonoBehaviour
 {
 
-    public UnityEvent OnCountEvent, OnEndEvent;
+    public UnityEvent onCountEvent, onEndEvent;
 
-    public int Value = 3, MinValue = 0;
-    public float WaitTime = 1;
+    public int value = 3, minValue = 0;
+    public float waitTime = 1;
 
     public void StartCounter()
     {
@@ -17,16 +17,16 @@ public class Counter : MonoBehaviour
 
     private IEnumerator RunCounter()
     {
-        var waitObject = new WaitForSeconds(WaitTime);
+        var waitObject = new WaitForSeconds(waitTime);
 
-        while (Value > MinValue)
+        while (value > minValue)
         {
             yield return waitObject;
-            OnCountEvent.Invoke();
-            Value--;
+            onCountEvent.Invoke();
+            value--;
         }
 
         yield return waitObject;
-        OnEndEvent.Invoke();
+        onEndEvent.Invoke();
     }
 }
