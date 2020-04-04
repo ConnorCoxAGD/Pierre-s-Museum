@@ -33,6 +33,7 @@
             <e p="CharacterJump.cs" t="Include" />
             <e p="PickUpAndThrow.cs" t="Include" />
             <e p="PlayerMoveBehaviour.cs" t="Include" />
+            <e p="PushBehaviour.cs" t="Include" />
           </e>
           <e p="SceneController.cs" t="Include" />
           <e p="ScoreKeeper.cs" t="Include" />

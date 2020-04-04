@@ -1,17 +1,23 @@
-﻿using JetBrains.Annotations;
+﻿using System.Collections;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class PickUpAndThrow : MonoBehaviour
 {
+    public NameId targetIdObj;
     public Transform target, allPickUps;
     [CanBeNull]public GameObject pickUp;
     [CanBeNull]public Rigidbody pickUpRb;
-    
-    private bool _holdingObj = false;
+
+    private NameId _otherIdObj;
+    private bool _throwAllowed = false;
 
     private void OnTriggerStay(Collider obj)
     {
-        if (Input.GetKeyDown("space"))
+        _otherIdObj = obj.GetComponent<MatchIdBehaviour>().nameIdObj;
+        if (_otherIdObj == null) return;
+
+        if (_otherIdObj == targetIdObj && Input.GetKeyDown("space"))
         {
             pickUp = obj.gameObject;
             pickUpRb = obj.GetComponent<Rigidbody>();
@@ -21,28 +27,33 @@ public class PickUpAndThrow : MonoBehaviour
             pickUp.transform.position = target.position;
             pickUp.transform.rotation = target.rotation;
             pickUp.transform.parent = target;
-            
-            _holdingObj = true;
+            StartCoroutine(BecomeThrowable());
         }
+        
+    }
+    
+    private IEnumerator BecomeThrowable()
+    {
+        var waitObject = new WaitForSeconds(0.2f);
+
+        while (_throwAllowed == false)
+        {
+            yield return waitObject;
+            _throwAllowed = true;
+        }
+
+        StopCoroutine(BecomeThrowable());
     }
 
     private void Update()
     {
-        if (_holdingObj == true)
-        {
-            ThrowObj();
-        }
-    }
-
-    private void ThrowObj()
-    {
-        if (Input.GetKeyDown("e"))
-        {
-            pickUpRb.isKinematic = false;
-            pickUpRb.AddRelativeForce(0,0,500);
-            pickUp.transform.parent = allPickUps;
-            pickUpRb.useGravity = true;
-            _holdingObj = false;
-        }
+        if (Input.GetKeyDown("space") && _throwAllowed == true)
+               {
+                   pickUpRb.isKinematic = false;
+                   pickUpRb.AddRelativeForce(0,0,500);
+                   pickUp.transform.parent = allPickUps;
+                   pickUpRb.useGravity = true;
+                   _throwAllowed = false;
+               }
     }
 }
