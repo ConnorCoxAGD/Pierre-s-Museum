@@ -92,17 +92,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaycastForward.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
               <folding>
-                <marker date="1586545087392" expanded="false" signature="6:44" ph="..." />
-                <marker date="1586545087392" expanded="true" signature="89:576" ph="{...}" />
-                <marker date="1586545087392" expanded="true" signature="184:574" ph="{...}" />
-                <marker date="1586545087392" expanded="true" signature="424:559" ph="{...}" />
-                <marker date="1586545087392" expanded="true" signature="485:548" ph="{...}" />
+                <marker date="1586547595240" expanded="false" signature="6:44" ph="..." />
+                <marker date="1586547595240" expanded="true" signature="89:577" ph="{...}" />
+                <marker date="1586547595240" expanded="true" signature="185:575" ph="{...}" />
+                <marker date="1586547595240" expanded="true" signature="425:560" ph="{...}" />
+                <marker date="1586547595240" expanded="true" signature="486:549" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <marker date="1586558983677" expanded="false" signature="6:78" ph="..." />
+                <marker date="1586558983677" expanded="true" signature="138:935" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="206:238" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="283:316" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="352:378" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="425:525" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="566:665" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="715:797" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="749:792" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="843:925" ph="{...}" />
+                <marker date="1586558983677" expanded="true" signature="877:920" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -165,7 +187,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IDBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameId.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThrowBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TiggerEventBehaviour.cs" />
@@ -195,6 +216,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PickUpAndThrow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RaycastCapsule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RaycastForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -271,12 +293,12 @@
       <workItem from="1585886087026" duration="1267000" />
       <workItem from="1585958127206" duration="12285000" />
       <workItem from="1586457012814" duration="10226000" />
-      <workItem from="1586537601273" duration="5050000" />
+      <workItem from="1586537601273" duration="7566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53107000" />
+    <option name="totallyTimeSpent" value="55623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,14 +686,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaycastForward.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
           <folding>
-            <marker date="1586545087392" expanded="false" signature="6:44" ph="..." />
-            <marker date="1586545087392" expanded="true" signature="89:576" ph="{...}" />
-            <marker date="1586545087392" expanded="true" signature="184:574" ph="{...}" />
-            <marker date="1586545087392" expanded="true" signature="424:559" ph="{...}" />
-            <marker date="1586545087392" expanded="true" signature="485:548" ph="{...}" />
+            <marker date="1586547595240" expanded="false" signature="6:44" ph="..." />
+            <marker date="1586547595240" expanded="true" signature="89:577" ph="{...}" />
+            <marker date="1586547595240" expanded="true" signature="185:575" ph="{...}" />
+            <marker date="1586547595240" expanded="true" signature="425:560" ph="{...}" />
+            <marker date="1586547595240" expanded="true" signature="486:549" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1586558983677" expanded="false" signature="6:78" ph="..." />
+            <marker date="1586558983677" expanded="true" signature="138:935" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="206:238" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="283:316" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="352:378" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="425:525" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="566:665" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="715:797" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="749:792" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="843:925" ph="{...}" />
+            <marker date="1586558983677" expanded="true" signature="877:920" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class RaycastForward : MonoBehaviour
 {
     public UnityEvent hitEvent;
-    public float length = 5f;
+    private float length = 4f;
     
     private void Update()
     {
