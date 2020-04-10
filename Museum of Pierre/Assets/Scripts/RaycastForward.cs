@@ -1,20 +1,26 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class RaycastForward : MonoBehaviour
 {
+    public NameId targetIdObj;
+    public UnityEvent hitEvent;
+    
     private RaycastHit _hit;
-    private float theDistance;
+    private NameId _otherIdObj;
 
     private void Update()
     {
-        Vector3 forward = transform.TransformDirection(Vector3.forward) * 10;
-        Debug.DrawRay(transform.position,forward,Color.green);
+        var forward = transform.TransformDirection(Vector3.forward) * 5;
+        Debug.DrawRay(transform.position,forward,Color.red);
 
         if (Physics.Raycast(transform.position, (forward), out _hit))
         {
-            theDistance = _hit.distance;
-            print (theDistance + "" + _hit.collider.gameObject.name);
-
+            if (_hit.collider.gameObject.GetComponent<NameId>().nameIdObj == targetIdObj)
+            {
+                hitEvent.Invoke();
+            }
         }
+        
     }
 }
