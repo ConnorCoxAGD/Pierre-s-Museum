@@ -9,12 +9,12 @@ public class PickUpAndThrow : MonoBehaviour
     [CanBeNull]public GameObject pickUp;
     [CanBeNull]public Rigidbody pickUpRb;
 
-    private NameId _otherIdObj;
+    [CanBeNull]private NameId _otherIdObj;
     private bool _throwAllowed = false;
 
     private void OnTriggerStay(Collider obj)
     {
-        _otherIdObj = obj.GetComponent<MatchIdBehaviour>().nameIdObj;
+        _otherIdObj = obj.GetComponent<IdBehaviour>().nameIdObj;
         if (_otherIdObj == null) return;
 
         if (_otherIdObj == targetIdObj && Input.GetKeyDown("space"))
@@ -51,7 +51,6 @@ public class PickUpAndThrow : MonoBehaviour
                {
                    pickUpRb.isKinematic = false;
                    pickUpRb.AddRelativeForce(0,0,500);
-                   pickUp.GetComponent<Counter>().onCountEvent.Invoke();
                    
                    pickUp.transform.parent = allPickUps;
                    pickUpRb.useGravity = true;
