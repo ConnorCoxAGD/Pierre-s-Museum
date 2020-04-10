@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -10,30 +11,44 @@ public class MatchIdBehaviour : IdBehaviour
     public struct possibleMatch
     {
         public NameId nameIdObj;
-        public UnityEvent workEvent;
+        public UnityEvent workEvent, delayedEvent;
     }
 
-    public List<possibleMatch> nameIdList;
-   
-   
-    private NameId otherIdObj;
-   
+    public float holdTime = 0.1f;
+    public WaitForSeconds waitObj;
+    public List<possibleMatch> triggerEnterMatches, triggerExitMatches;
+    private NameId _otherIdObj;
+
+    private void Awake()
+    {
+        waitObj = new WaitForSeconds(holdTime);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        var nameId = other.GetComponent<IdBehaviour>().nameIdObj;
-        if (nameId == null) return;
-      
-        otherIdObj = nameId;
-        CheckId();
+        _otherIdObj = other.GetComponent<IdBehaviour>().nameIdObj;
+        if (_otherIdObj == null) return;
+        StartCoroutine(CheckId(_otherIdObj, triggerEnterMatches));
+    }
+   
+    private void OnTriggerExit(Collider other)
+    {
+        _otherIdObj = other.GetComponent<IdBehaviour>().nameIdObj;
+        if (_otherIdObj == null) return;
+        StartCoroutine(CheckId(_otherIdObj, triggerExitMatches));
     }
 
-    private void CheckId()
+    private IEnumerator CheckId(NameId nameId, List<possibleMatch> possibleMatches)
     {
-        foreach (var obj in nameIdList)
+      
+        _otherIdObj = nameId;
+        foreach (var obj in possibleMatches)
         {
-            if (otherIdObj == obj.nameIdObj)
+            if (_otherIdObj == obj.nameIdObj)
             {
                 obj.workEvent.Invoke();
+                yield return waitObj;
+                obj.delayedEvent.Invoke();
             }
         }
     }

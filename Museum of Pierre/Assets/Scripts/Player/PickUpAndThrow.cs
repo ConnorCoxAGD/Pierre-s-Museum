@@ -51,6 +51,8 @@ public class PickUpAndThrow : MonoBehaviour
                {
                    pickUpRb.isKinematic = false;
                    pickUpRb.AddRelativeForce(0,0,500);
+                   pickUp.GetComponent<Counter>().onCountEvent.Invoke();
+                   
                    pickUp.transform.parent = allPickUps;
                    pickUpRb.useGravity = true;
                    _throwAllowed = false;
