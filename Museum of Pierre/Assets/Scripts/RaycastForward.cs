@@ -3,23 +3,22 @@ using UnityEngine.Events;
 
 public class RaycastForward : MonoBehaviour
 {
-    public NameId targetIdObj;
     public UnityEvent hitEvent;
+    public float length = 5f;
     
-    private RaycastHit _hit;
-    private NameId _otherIdObj;
-
     private void Update()
     {
-        var forward = transform.TransformDirection(Vector3.forward) * 5;
-        Debug.DrawRay(transform.position,forward,Color.red);
+        RaycastHit hit;
+        var forward = transform.TransformDirection(Vector3.forward) * length;
+        Debug.DrawRay(transform.position,forward,Color.blue);
 
-        if (Physics.Raycast(transform.position, (forward), out _hit))
+        if (Physics.Raycast(transform.position, (forward), out hit))
         {
-            if (_hit.collider.gameObject.GetComponent<NameId>().nameIdObj == targetIdObj)
+            if (hit.collider.CompareTag("Player"))
             {
                 hitEvent.Invoke();
             }
+
         }
         
     }
