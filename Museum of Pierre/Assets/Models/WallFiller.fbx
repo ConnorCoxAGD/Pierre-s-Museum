@@ -7,12 +7,12 @@ FBXHeaderExtension:  {
 	CreationTimeStamp:  {
 		Version: 1000
 		Year: 2020
-		Month: 3
-		Day: 26
-		Hour: 10
-		Minute: 46
-		Second: 24
-		Millisecond: 212
+		Month: 4
+		Day: 20
+		Hour: 2
+		Minute: 3
+		Second: 56
+		Millisecond: 866
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201800"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "26/03/2020 16:46:24.211"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "20/04/2020 08:03:56.863"
 			P: "Original|FileName", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Museum of Pierre\Assets\Models\WallFiller.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201800"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "26/03/2020 16:46:24.211"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "20/04/2020 08:03:56.863"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Museum of Pierre\Assets\Models"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\conno\Documents\Pierre's Museum\Pre-Production\Gray Box.ma"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2609143696304, "", "Scene" {
+	Document: 2572595049120, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -227,9 +227,9 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2608985055936, "Geometry::", "Mesh" {
+	Geometry: 2572479911056, "Geometry::", "Mesh" {
 		Vertices: *24 {
-			a: 6,0.00573348999023438,-6,5,0.00573348999023438,-6,6,2.96987915039063,-6,5,2.96987915039063,-6,6,2.96987915039063,-5,5,2.96987915039063,-5,6,0.00573348999023438,-5,5,0.00573348999023438,-5
+			a: -1,-3.814697265625e-06,3.814697265625e-06,-2,-3.814697265625e-06,3.814697265625e-06,-1,1.7813720703125,3.814697265625e-06,-2,1.7813720703125,3.814697265625e-06,-1,1.7813720703125,1.00000381469727,-2,1.7813720703125,1.00000381469727,-1,-3.814697265625e-06,1.00000381469727,-2,-3.814697265625e-06,1.00000381469727
 		} 
 		PolygonVertexIndex: *20 {
 			a: 0,1,3,-3,2,3,5,-5,4,5,7,-7,1,7,5,-4,6,0,2,-5
@@ -256,7 +256,7 @@ Objects:  {
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "IndexToDirect"
 			UV: *24 {
-				a: 0.375,0,0.625,0,0.375,0.25,0.625,0.25,0.375,0.5,0.625,0.5,0.375,0.75,0.625,0.75,0.875,0,0.875,0.25,0.125,0,0.125,0.25
+				a: 0.232544600963593,0.45706570148468,0.31063437461853,0.457139372825623,0.23241314291954,0.596171438694,0.310502916574478,0.596245110034943,0.232339352369308,0.674261271953583,0.310429155826569,0.674334943294525,0.232207894325256,0.813367068767548,0.310297667980194,0.81344074010849,0.38872417807579,0.457213163375854,0.388592749834061,0.596318900585175,0.15445476770401,0.456991672515869,0.15432333946228,0.596097528934479
 			} 
 			UVIndex: *20 {
 				a: 0,1,3,2,2,3,5,4,4,5,7,6,1,8,9,3,10,0,2,11
@@ -287,28 +287,27 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2608995566352, "Model::Wall_Filler", "Mesh" {
+	Model: 2570577313888, "Model::Wall_Filler", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "RotationPivot", "Vector3D", "Vector", "",6,0.00573210826369841,-5.99999998497071
-			P: "ScalingPivot", "Vector3D", "Vector", "",6,0.00573210826369863,-5.99999998497071
+			P: "RotationPivot", "Vector3D", "Vector", "",-1,-4.33680868994202e-19,0
+			P: "ScalingPivot", "Vector3D", "Vector", "",-1,2.21177243187043e-16,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,0.6,1
 			P: "currentUVSet", "KString", "", "U", "map1"
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2608988414848, "Material::Wall", "" {
+	Material: 2571722215616, "Material::Enivronment_MAT", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
 		Properties70:  {
 			P: "AmbientColor", "Color", "", "A",0,0,0
-			P: "DiffuseColor", "Color", "", "A",0.470899999141693,0.409200012683868,0.378600001335144
+			P: "DiffuseColor", "Color", "", "A",0.710099995136261,0.665700018405914,0.501200020313263
 			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
 			P: "TransparencyFactor", "Number", "", "A",1
 			P: "SpecularColor", "Color", "", "A",0.5,0.5,0.5
@@ -316,7 +315,7 @@ Objects:  {
 			P: "ReflectionFactor", "Number", "", "A",0.5
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
 			P: "Ambient", "Vector3D", "Vector", "",0,0,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.37672000492692,0.327360015025139,0.302880005581379
+			P: "Diffuse", "Vector3D", "Vector", "",0.56808000457406,0.532560022660494,0.40096002222538
 			P: "Specular", "Vector3D", "Vector", "",0.5,0.5,0.5
 			P: "Shininess", "double", "Number", "",6.31179093816824
 			P: "Opacity", "double", "Number", "",1
@@ -331,11 +330,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Wall_Filler, Model::RootNode
-	C: "OO",2608995566352,0
+	C: "OO",2570577313888,0
 	
 	;Geometry::, Model::Wall_Filler
-	C: "OO",2608985055936,2608995566352
+	C: "OO",2572479911056,2570577313888
 	
-	;Material::Wall, Model::Wall_Filler
-	C: "OO",2608988414848,2608995566352
+	;Material::Enivronment_MAT, Model::Wall_Filler
+	C: "OO",2571722215616,2570577313888
 }

@@ -4,13 +4,23 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: DoorLocked
+    100004: Lock
     400000: //RootNode
+    400002: DoorLocked
+    400004: Lock
     2100000: Brown
     2100002: Blue
     2100004: Yellow
+    2100006: Enivronment_MAT
     2300000: //RootNode
+    2300002: DoorLocked
+    2300004: Lock
     3300000: //RootNode
+    3300002: DoorLocked
+    3300004: Lock
     4300000: DoorLocked
+    4300002: Lock
   externalObjects: {}
   materials:
     importMaterials: 1

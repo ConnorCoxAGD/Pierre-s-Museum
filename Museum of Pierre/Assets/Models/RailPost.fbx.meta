@@ -6,9 +6,11 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: Brown
+    2100002: Enivronment_MAT
     2300000: //RootNode
     3300000: //RootNode
     4300000: RailPost
+    4300002: FencePost
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -5,15 +5,35 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Plain_Tile
     100002: //RootNode
+    100004: Plain_Tile1
+    100006: Plain_Tile2
+    100008: Plain_Tile3
+    100010: Plain_Tile4
+    100012: transform1
+    100014: transform2
+    100016: transform3
+    100018: transform4
     400000: Plain_Tile
     400002: //RootNode
+    400004: Plain_Tile1
+    400006: Plain_Tile2
+    400008: Plain_Tile3
+    400010: Plain_Tile4
+    400012: transform1
+    400014: transform2
+    400016: transform3
+    400018: transform4
     2100000: Tiled_Floor
+    2100002: Enivronment_MAT
     2300000: Plain_Tile
     2300002: //RootNode
+    2300004: Plain_Tile4
     3300000: Plain_Tile
     3300002: //RootNode
+    3300004: Plain_Tile4
     4300000: Plain_Tile
     4300002: Decorative_Tile
+    4300004: Plain_Tile4
   externalObjects: {}
   materials:
     importMaterials: 1

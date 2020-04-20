@@ -4,11 +4,24 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Doorway
+    100004: Plain_Wall4
+    100006: transform1
+    100008: transform2
+    100010: Wall_Filler_Top1
     400000: //RootNode
+    400002: Doorway
+    400004: Plain_Wall4
+    400006: transform1
+    400008: transform2
+    400010: Wall_Filler_Top1
     2100000: Wall
     2100002: Brown
+    2100004: Enivronment_MAT
     2300000: //RootNode
+    2300002: Doorway
     3300000: //RootNode
+    3300002: Doorway
     4300000: Doorway
   externalObjects: {}
   materials:

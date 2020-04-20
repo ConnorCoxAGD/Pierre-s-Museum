@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: lambert1
     2100002: Wall
+    2100004: Enivronment_MAT
     2300000: Plain_Wall
     2300002: //RootNode
     3300000: Plain_Wall

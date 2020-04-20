@@ -9,11 +9,14 @@ ModelImporter:
     400002: Wood_Beam
     2100000: lambert1
     2100002: Brown
+    2100004: Wall
+    2100006: Enivronment_MAT
     2300000: Wood_Beam
     2300002: //RootNode
     3300000: Wood_Beam
     3300002: //RootNode
     4300000: Wood_Beam
+    4300002: Doorway
   externalObjects: {}
   materials:
     importMaterials: 1
