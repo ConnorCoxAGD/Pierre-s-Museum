@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1793336114074771926}
   - component: {fileID: 1793336114074771927}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,9 +56,9 @@ GameObject:
   - component: {fileID: 1793336114818346681}
   - component: {fileID: 1793336114819443833}
   - component: {fileID: 1793336114126811877}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Staircase (1)
-  m_TagString: Untagged
+  m_TagString: World
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -103,7 +103,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100006, guid: 755a0e41881077b4f89a6ea5c7e64f4e, type: 3}
+  - {fileID: 2100000, guid: 76a4aac966f23e04c920eec13d5eee11, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -27,6 +27,7 @@
             <e p="MatchIdBehaviour.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
           </e>
+          <e p="KeyEvents.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="PickUpAndThrow.cs" t="Include" />

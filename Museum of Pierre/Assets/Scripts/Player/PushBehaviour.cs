@@ -28,7 +28,7 @@ public class PushBehaviour : MonoBehaviour
         var waitObject = new WaitForSeconds(0.1f);
         
         yield return waitObject;
-        pushableRb.AddRelativeForce(0,0,100);
+        pushableRb.AddRelativeForce(0,0,200);
         pushableRb = null;
 
         StopCoroutine(BecomePushable());

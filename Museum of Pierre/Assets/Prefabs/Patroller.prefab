@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 514254081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2741, y: 1.2741, z: 1.2741}
   m_Children: []
   m_Father: {fileID: 3776464825425368043}
   m_RootOrder: 3
@@ -4980,8 +4980,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882035946085501109}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.000000059604645}
-  m_LocalPosition: {x: 0.0009, y: -0.0010000002, z: 0.0655}
-  m_LocalScale: {x: 0.004033496, y: 0.00886197, z: 0.01194986}
+  m_LocalPosition: {x: 0.0001, y: -0.0010000002, z: 0.0467}
+  m_LocalScale: {x: 0.004033496, y: 0.00886197, z: 0.008040082}
   m_Children: []
   m_Father: {fileID: 3776464825425368043}
   m_RootOrder: 0
@@ -5091,12 +5091,12 @@ NavMeshAgent:
   m_GameObject: {fileID: 882035946945564526}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.96
-  m_Speed: 3.01
+  m_Radius: 0.71
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 70
-  m_AngularSpeed: 1000
-  m_StoppingDistance: 0
+  m_AngularSpeed: 10000
+  m_StoppingDistance: 0.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 0
   m_AutoRepath: 0
@@ -5223,7 +5223,7 @@ Transform:
   m_GameObject: {fileID: 3598463556864554338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.029183175, y: 0.029183175, z: 0.029183175}
+  m_LocalScale: {x: 0.023638371, y: 0.023638371, z: 0.023638371}
   m_Children: []
   m_Father: {fileID: 3776464825425368043}
   m_RootOrder: 1
@@ -5297,6 +5297,28 @@ MonoBehaviour:
         - m_Target: {fileID: 3776464825425268683}
           m_MethodName: SetActive
           m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    delayedEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - nameIdObj: {fileID: 11400000, guid: 0c527cdfa3ee80847a12ba9e55b53a67, type: 2}
+    workEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 7eb5d327d9b09a744879bb52ef62d4c1, type: 2}
+          m_MethodName: RaiseAction
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5719,7 +5741,7 @@ AudioSource:
   Priority: 137
   DopplerLevel: 1.71
   MinDistance: 1.5096166
-  MaxDistance: 500
+  MaxDistance: 3.876915
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5872,20 +5894,29 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.8194444
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.041665077
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0.3160377, b: 0.3160377, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 0.504717, b: 0.96766275, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
