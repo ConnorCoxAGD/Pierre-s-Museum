@@ -34,7 +34,12 @@ ModelImporter:
     4300000: Plain_Tile
     4300002: Decorative_Tile
     4300004: Plain_Tile4
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Enivronment_MAT
+    second: {fileID: 2100000, guid: 76a4aac966f23e04c920eec13d5eee11, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

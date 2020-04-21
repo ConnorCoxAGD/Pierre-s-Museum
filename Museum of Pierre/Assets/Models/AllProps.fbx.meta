@@ -166,7 +166,12 @@ ModelImporter:
     4300058: FencePost
     4300060: Fence
     4300062: Table
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Enivronment_MAT
+    second: {fileID: 2100000, guid: 76a4aac966f23e04c920eec13d5eee11, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

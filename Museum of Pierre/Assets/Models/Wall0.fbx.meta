@@ -17,7 +17,12 @@ ModelImporter:
     4300000: Plain_Wall
     4300002: Plain_Wall1
     4300004: Plain_Wall0
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Enivronment_MAT
+    second: {fileID: 2100000, guid: 76a4aac966f23e04c920eec13d5eee11, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
