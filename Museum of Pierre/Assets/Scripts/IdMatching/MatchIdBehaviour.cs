@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -24,16 +25,17 @@ public class MatchIdBehaviour : IdBehaviour
         waitObj = new WaitForSeconds(holdTime);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider obj)
     {
-        _otherIdObj = other.GetComponent<IdBehaviour>().nameIdObj;
+        _otherIdObj = obj.GetComponent<IdBehaviour>().nameIdObj;
         if (_otherIdObj == null) return;
+        
         StartCoroutine(CheckId(_otherIdObj, triggerEnterMatches));
     }
    
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider obj)
     {
-        _otherIdObj = other.GetComponent<IdBehaviour>().nameIdObj;
+        _otherIdObj = obj.GetComponent<IdBehaviour>().nameIdObj;
         if (_otherIdObj == null) return;
         StartCoroutine(CheckId(_otherIdObj, triggerExitMatches));
     }

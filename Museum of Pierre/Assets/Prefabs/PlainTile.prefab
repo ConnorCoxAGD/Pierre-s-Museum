@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7469793456932616907}
   - component: {fileID: 7469793456933582859}
   - component: {fileID: 2336864280896269720}
+  - component: {fileID: 8028564537476787761}
   m_Layer: 14
   m_Name: PlainTile
   m_TagString: World
@@ -91,3 +92,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.10220829, z: 1}
   m_Center: {x: 0.5, y: -0.044529036, z: 0.5}
+--- !u!114 &8028564537476787761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7469793456935839435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f726ca7cc310c946b4849b5b92f9ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 0}
