@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IdMatching/MatchIdBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="196">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <marker date="1587509613914" expanded="false" signature="6:147" ph="..." />
                 <marker date="1587509613914" expanded="true" signature="192:1474" ph="{...}" />
@@ -157,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="6" />
     <option name="y" value="30" />
     <option name="width" value="1059" />
@@ -232,12 +232,12 @@
       <workItem from="1586457012814" duration="10226000" />
       <workItem from="1586537601273" duration="8194000" />
       <workItem from="1587450763186" duration="2060000" />
-      <workItem from="1587502764939" duration="1305000" />
+      <workItem from="1587502764939" duration="1903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59616000" />
+    <option name="totallyTimeSpent" value="60214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,8 +249,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="20" width="706" height="533" extended-state="1" />
-    <editor active="true" />
+    <frame x="4" y="20" width="706" height="533" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -667,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IdMatching/MatchIdBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="196">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <marker date="1587509613914" expanded="false" signature="6:147" ph="..." />
             <marker date="1587509613914" expanded="true" signature="192:1474" ph="{...}" />
