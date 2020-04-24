@@ -36,6 +36,10 @@ ModelImporter:
     100060: Window_Wall_Tall
     100062: Wood_Beam
     100064: Wood_Beam1
+    100066: Chest_Bottom
+    100068: Chest_Grp
+    100070: Chest_Top
+    100072: DoorBlock
     400000: //RootNode
     400002: Barrel
     400004: Bread
@@ -69,6 +73,10 @@ ModelImporter:
     400060: Window_Wall_Tall
     400062: Wood_Beam
     400064: Wood_Beam1
+    400066: Chest_Bottom
+    400068: Chest_Grp
+    400070: Chest_Top
+    400072: DoorBlock
     2100000: Enivronment_MAT
     2300000: Barrel
     2300002: Bread
@@ -102,6 +110,9 @@ ModelImporter:
     2300058: Window_Wall_Tall
     2300060: Wood_Beam
     2300062: Wood_Beam1
+    2300064: Chest_Bottom
+    2300066: Chest_Top
+    2300068: DoorBlock
     3300000: Barrel
     3300002: Bread
     3300004: Button
@@ -134,6 +145,9 @@ ModelImporter:
     3300058: Window_Wall_Tall
     3300060: Wood_Beam
     3300062: Wood_Beam1
+    3300064: Chest_Bottom
+    3300066: Chest_Top
+    3300068: DoorBlock
     4300000: Wall_Filler
     4300002: Plain_Wall1
     4300004: Wood_Beam
@@ -166,6 +180,9 @@ ModelImporter:
     4300058: FencePost
     4300060: Fence
     4300062: Table
+    4300064: DoorBlock
+    4300066: Chest_Top
+    4300068: Chest_Bottom
   externalObjects:
   - first:
       type: UnityEngine:Material

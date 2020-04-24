@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 8993410216490324637}
   - component: {fileID: 8993410216490324633}
   - component: {fileID: 7118541736602292251}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8993410216544260401}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: PushableChair
   m_TagString: Untagged
   m_Icon: {fileID: 0}

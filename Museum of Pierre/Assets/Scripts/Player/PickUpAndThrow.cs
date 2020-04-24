@@ -34,7 +34,7 @@ public class PickUpAndThrow : MonoBehaviour
     
     private IEnumerator BecomeThrowable()
     {
-        var waitObject = new WaitForSeconds(0.2f);
+        var waitObject = new WaitForSeconds(0.5f);
 
         while (_throwAllowed == false)
         {

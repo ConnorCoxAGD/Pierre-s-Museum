@@ -17,13 +17,13 @@ TagManager:
   - PostProcessing
   - Camera
   - Player
-  - Interactable Objs
+  - Liftable Objs
   - Enemy
   - SafeZone
   - Ground
-  - 
-  - 
-  - 
+  - Pushable Objs
+  - PlayerInteract
+  - Door
   - 
   - 
   - 

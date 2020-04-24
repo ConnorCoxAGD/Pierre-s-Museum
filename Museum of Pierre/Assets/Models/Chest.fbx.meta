@@ -4,14 +4,24 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Chest_Bottom
+    100004: Chest_Top
     400000: //RootNode
+    400002: Chest_Bottom
+    400004: Chest_Top
     2100000: Brown
     2100002: Yellow
     2100004: Blue
     2100006: Enivronment_MAT
     2300000: //RootNode
+    2300002: Chest_Bottom
+    2300004: Chest_Top
     3300000: //RootNode
+    3300002: Chest_Bottom
+    3300004: Chest_Top
     4300000: Chest
+    4300002: Chest_Top
+    4300004: Chest_Bottom
   externalObjects:
   - first:
       type: UnityEngine:Material

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1694325145194069242}
   - component: {fileID: 1694325145196936410}
   - component: {fileID: 1694325145195839002}
-  - component: {fileID: 1694325145193832664}
   - component: {fileID: 1694325145193832665}
+  - component: {fileID: 9144188316702137594}
   m_Layer: 0
   m_Name: Croissant
   m_TagString: Untagged
@@ -79,19 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1694325145193832664
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694325145193832666}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.4459877, y: 0.120563835, z: 0.31570005}
-  m_Center: {x: -0.0000009536743, y: 0.0727116, z: -0.07777524}
 --- !u!114 &1694325145193832665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,6 +128,19 @@ MonoBehaviour:
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   triggerExitMatches: []
+--- !u!65 &9144188316702137594
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694325145193832666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.40599918, y: 0.35899305, z: 0.21873957}
+  m_Center: {x: 0.0000010579824, y: -0.0353753, z: 0.07151443}
 --- !u!1 &4492122574321304471
 GameObject:
   m_ObjectHideFlags: 0

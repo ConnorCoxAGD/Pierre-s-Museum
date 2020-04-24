@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8948671574957779359}
   - component: {fileID: 3376774589713727125}
   - component: {fileID: 8496601094934144350}
-  - component: {fileID: 2134946866}
-  m_Layer: 0
+  - component: {fileID: 1959522037}
+  m_Layer: 15
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.5, z: 0}
   m_TimeToStationary: 0.5
---- !u!54 &2134946866
+--- !u!54 &1959522037
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
