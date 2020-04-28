@@ -11,12 +11,12 @@ public class KeyEvents : MonoBehaviour
     private void OnTriggerStay(Collider obj)
     {
         
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") || Input.GetKeyDown("e"))
         {
             spaceKeyEvent.Invoke();
         }
 
-        if (chosenData.value > 0 && Input.GetKeyDown("space"))
+        if (chosenData.value > 0 && Input.GetKeyDown("space") || chosenData.value > 0 && Input.GetKeyDown("e"))
         {
             dataSpaceKeyEvent.Invoke();
         }

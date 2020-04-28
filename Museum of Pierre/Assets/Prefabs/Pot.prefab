@@ -4871,6 +4871,7 @@ GameObject:
   - component: {fileID: 8197072018171791467}
   - component: {fileID: 7033218347548296629}
   - component: {fileID: 3936608340965191776}
+  - component: {fileID: 5661935402680980600}
   m_Layer: 11
   m_Name: PotWork
   m_TagString: Untagged
@@ -5118,3 +5119,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.73884034, y: 0.8277234, z: 0.71793234}
   m_Center: {x: 0.021444209, y: 0.36086726, z: 0.008885614}
+--- !u!208 &5661935402680980600
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9007888323359644562}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.397, y: 0.29500002, z: 0.397}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.29500002, z: 0}
+  m_TimeToStationary: 0.5

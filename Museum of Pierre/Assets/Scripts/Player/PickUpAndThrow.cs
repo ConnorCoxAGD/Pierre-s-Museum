@@ -17,7 +17,7 @@ public class PickUpAndThrow : MonoBehaviour
         _otherIdObj = obj.GetComponent<IdBehaviour>().nameIdObj;
         if (_otherIdObj == null) return;
 
-        if (_otherIdObj == targetIdObj && Input.GetKeyDown("space"))
+        if (_otherIdObj == targetIdObj && Input.GetKeyDown("space")|| _otherIdObj == targetIdObj && Input.GetKeyDown("e"))
         {
             pickUp = obj.gameObject;
             pickUpRb = obj.GetComponent<Rigidbody>();
@@ -47,7 +47,7 @@ public class PickUpAndThrow : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown("space") && _throwAllowed == true)
+        if (_throwAllowed == true && Input.GetKeyDown("space")|| _throwAllowed == true && Input.GetKeyDown("e"))
                {
                    pickUpRb.isKinematic = false;
                    pickUpRb.AddRelativeForce(0,0,500);
